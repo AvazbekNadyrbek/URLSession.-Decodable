@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UnsplashResult: Decodable {
+struct UnsplashResult: Decodable {
     let id: String
     let urls: UnsplashResultUrls
 }

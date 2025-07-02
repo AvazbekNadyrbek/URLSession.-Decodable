@@ -5,7 +5,7 @@
 //  Created by Авазбек Надырбек уулу on 23.06.25.
 //
 
-import UIKit
+import Foundation
 
 class NetworkLayer {
     
@@ -47,9 +47,9 @@ class NetworkLayer {
                 return
             }
             
-            print(data)
-            
-            print(String(decoding: data, as: UTF8.self))
+//            print(data)
+//            
+//            print(String(decoding: data, as: UTF8.self))
             
             // data = json -> [UnsplashResult]
             
