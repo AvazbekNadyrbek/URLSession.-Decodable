@@ -24,8 +24,8 @@ class ViewController: UIViewController {
         $0.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         return $0
     }(UITableView(frame: view.frame, style: .insetGrouped))
-    
     //
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -46,6 +46,7 @@ class ViewController: UIViewController {
                 print("Error:", error)
             }
         }
+        
     }
 }
 
